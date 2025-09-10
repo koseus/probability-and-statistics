@@ -12,7 +12,7 @@ ggplot(df, aes(x = value, fill = group)) +
   geom_dotplot(binwidth = 1, stackgroups = TRUE, binpositions = "all") +
   theme_minimal()
 
-# Aging process had a slight effect on the tensile strength
+cat("Aging process had a slight effect on the tensile strength\n")
 
 no_aging_mean <- mean(no_aging)
 aging_mean <- mean(aging)
