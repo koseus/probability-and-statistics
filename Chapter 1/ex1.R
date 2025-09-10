@@ -18,4 +18,4 @@ ggplot(df, aes(x = measurements)) +
 trimmed_mean <- mean(measurements, trim = 0.2)
 cat("Trimmed mean (20%) is ", trimmed_mean, "\n")
 
-# The trimmed mean is more descriptive than the sample mean since it is closer to the sample median
+cat("The trimmed mean is more descriptive than the sample mean since it is closer to the sample median")
