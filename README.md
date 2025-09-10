@@ -1,0 +1,1 @@
+Solutions to exercies in [Probability and Statistics for Engineers and Scientists (9th Edition, Walpole)](https://spada.uns.ac.id/pluginfile.php/221008/mod_resource/content/1/ProbabilityStatistics_for_EngineersScientists(9th_Edition)_Walpole.pdf)
