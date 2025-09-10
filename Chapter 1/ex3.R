@@ -12,18 +12,18 @@ ggplot(df, aes(x = value, fill = group)) +
   geom_dotplot(binwidth = 1, stackgroups = TRUE, binpositions = "all") +
   theme_minimal()
 
-cat("Aging process had a slight effect on the tensile strength\n")
+cat("Aging process had a slight effect on the tensile strength\n\n")
 
 no_aging_mean <- mean(no_aging)
 aging_mean <- mean(aging)
 
-cat("Mean value for no aging is ", no_aging_mean, "\n");
-cat("Mean value for aging is ", aging_mean, "\n");
+cat("Mean value for no aging: ", no_aging_mean, "\n");
+cat("Mean value for aging: ", aging_mean, "\n\n");
 
 no_aging_median <- median(no_aging)
 aging_median <- median(aging)
 
-cat("Median value for no aging is ", no_aging_median, "\n")
-cat("Median value for aging is ", aging_median, "\n")
+cat("Median value for no aging: ", no_aging_median, "\n")
+cat("Median value for aging: ", aging_median, "\n\n")
 
 cat("Intragroup mean and median values are very similar")
