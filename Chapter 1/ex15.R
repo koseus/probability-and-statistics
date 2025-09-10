@@ -1,0 +1,1 @@
+cat("The P-value 0.03125 seems pretty low. The coin is unlikely to be fair")
